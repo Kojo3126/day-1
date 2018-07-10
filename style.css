@@ -5,9 +5,15 @@ html{
 	margin:0;
 }
 header{
-	background-color: blue;
+	background-color: silver;
 	grid-column: span 3;
 	padding:16px;
+	color: White;
+	font-family: Knockout;
+	text-align: center;
+	font-size:35px;
+	font-weight: 10px;
+
 
 }
 
@@ -17,26 +23,40 @@ body{
 }
 
 nav{
-	background-color: lightpink;
+	background: linear-gradient(lightpink,silver);
 	padding:16px;
+	text-align: center;
+
+}
+img{
+	size: 15px;
+	text-align: 
 }
 
 main{
-	background-color:lightgreen;
+	background: linear-gradient(to right,lightpink , silver);
 	padding:16px;
+	text-align: center;
+	border: 15px solid black;
+	text-shadow: 3px 2px 5px red;
+	font-size:50px;
 
 }
 
 aside{
-	background-color:yellow;
+	background: linear-gradient(silver,lightpink);
+	font-size:23px;
+	text-align: center;
+	display: inline;
 
 }
 
 footer{
-	background-color:silver;
+	background-color:black;
 	padding:16px;
 	grid-column: span 3;
 	padding:16px;
+	color:Purple;
 }
 
 .container{
